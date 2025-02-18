@@ -185,3 +185,23 @@ hr {
   color: #854632
 
 }
+@media screen and (max-width: 768px) {
+  .recipe {
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  .prep, .instru {
+    width: 100%;
+    padding: 10px;
+  }
+
+  h1, h2, h3 {
+    font-size: 1.5rem; /* Başlıkları mobilde küçült */
+  }
+
+  .paragraf {
+    font-size: 1rem;
+    padding: 10px;
+  }
+}
