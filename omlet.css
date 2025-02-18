@@ -1,0 +1,187 @@
+* {
+    box-sizing: border-box;
+    font-family: "Young Serif", serif;
+}
+
+
+body {
+    background-color: #f3e5d7;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    display: flex;
+    
+}
+
+.recipe {
+       width: 730px;
+       height: 1850px;
+       background-color: whitesmoke;
+       margin-top: 128px;
+       margin-bottom: 128px;
+       border-radius: 24px;
+       display: flex;
+      
+       flex-direction: column;
+}
+.baslik {
+    margin-bottom: 24px;
+    font-family: "Young Serif";
+    font-size: 40px;
+    line-height: 100%;
+    color: #312e2c;
+    margin-left: 45px;
+}
+
+.recipe img {
+       display: flex;
+       width: 650px;
+       height: 300px;
+       border-radius: 24px;
+       margin-top: 35px;
+       align-self: center;
+}
+
+.young-serif-regular {
+    align-self: flex-start;
+    display: flex;
+    font-family: "Young Serif", serif;
+    font-weight: lighter;
+    font-style: normal;
+    margin-left: 6%;
+  }
+
+
+  .paragraf {
+    font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin-left: 6%;
+    margin-right: 53px;
+    
+  }
+  
+  .prep {
+       background-color: #f4e7ee;
+       width: 650px;
+       height: 200px;
+       border-radius: 24px;
+       align-self: center;
+       
+
+  }
+  .h2prep {
+    color: rgb(159, 74, 103);
+    font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+    font-weight:400;
+    font-style:normal;
+    margin-left: -10px;
+
+  }
+
+span {
+    color: rgb(61, 45, 58);
+    font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+    font-style:normal;
+    font-weight: bold;
+    display: inline-block;
+}
+article ul li{
+    color: rgb(94, 85, 93);
+    margin-left: 15px;
+  }
+
+ h1 {
+    color: hsl(14, 45%, 36%);
+ }
+
+.ingre {
+  display: flex;
+  align-self: flex-start;
+  flex-direction: column;
+  color: rgb(94, 85, 93);
+  margin-left: 15px;
+  font-weight: lighter;
+}
+
+.ingre li {
+  margin-left: 25px;
+  margin-bottom: -10px;
+  margin-top: -5px;
+}
+
+.instru {
+ margin-right: 53px;
+ margin-left: 53px;
+ font-weight: lighter;
+ color:rgb(94, 85, 93); ;
+ padding-right: 50px;
+}
+.instructionsol {
+  display: inline;
+  position: relative;
+  top: 5px;
+  left: 25px;
+  bottom: 35px;
+  margin-left: 0px;
+}
+
+hr {  
+  width: 90%;
+  margin: 20px auto;
+  border: none; /* Varsayılan sınırı kaldır */
+  height: 1px; /* Normalde en ince çizgi */
+  background-color:rgb(203, 191, 201); /* Çizginin rengi */
+  transform: scaleY(0.5); /* Y ekseninde sıkıştırarak daha ince yap */
+  width: 90%; /* Genişlik ayarı */
+  margin: 20px auto;
+}
+.nutr {
+  position: relative;
+
+}
+.nut h2 {
+    display: flex;
+    align-self: flex-start;
+    flex-direction: column;
+    color: hsl(14, 45%, 36%);
+    
+    margin-left: 45px;
+
+
+}
+.nut p {
+  display: block;
+  margin-left: 45px;
+  unicode-bidi: isolate;
+  margin-right: 53px;
+}
+
+.nutr li {
+  display: block;
+  position: relative;
+  padding-bottom: 5px; /* Çizginin içerikle çakışmasını önler */
+  list-style: none;
+    margin-bottom: 24px;
+    margin-left: 0px;
+    padding-left: 32px
+}
+
+.nutr li::after {
+  position: absolute;
+  content: "";
+  border-bottom: 1px solid #c7beb4;
+  width: 90%;
+  top: calc(100%);
+  left: 0;
+}
+
+.value {
+  display: inline-block;
+  width: 49%;
+  color: #854632
+
+}
