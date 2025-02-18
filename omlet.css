@@ -190,6 +190,10 @@ hr {
     max-width: 100%;
     padding: 10px;
   }
+    .recipe img{
+    max-width: 100%;
+    padding: 10px;
+  }
 
   .prep, .instru {
     width: 100%;
@@ -200,7 +204,7 @@ hr {
     font-size: 1.5rem; /* Başlıkları mobilde küçült */
   }
 
-  .paragraf {
+  .paragraf, ul ,li , ol {
     font-size: 1rem;
     padding: 10px;
   }
